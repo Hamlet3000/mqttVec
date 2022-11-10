@@ -93,7 +93,7 @@ def on_publish(client, userdata, mid):
 def do_mqtt(data):
     
     # define variables for MQTT
-    MQTT_HOST = "192.168.0.7"
+    MQTT_HOST = "YOUR_BROKER_IP"
     MQTT_TOPIC = "Vector"
     MQTT_PORT = 1883
     MQTT_KEEPALIVE_INTERVAL = 20
